@@ -4,31 +4,234 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Start Screen</title>
-<script type="text/javascript" src="index.js">
+<script type="text/javascript" src="login.js">
 </script>
 <link href="login.css" rel="stylesheet">
 </head>
+
 <body id="background" style="background-image: url('./assets/img/background-login.png')"></body>
-<header id="header" class="fixed-top">
+<header id="header" class="header-transparent">
+  <div class="container">
+
+    <div id="logo" class="pull-left">
+      <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+      <!-- Uncomment below if you prefer to use a text logo -->
+      <h1><a href="#hero">E-Learning Interface</a></h1>
+    </div>
+
+    <nav id="nav-menu-container">
+      <ul class="nav-menu">
+        <!-- <li class="menu-active"><a href="index.html">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#team">Team</a></li> -->
+        <li class="menu-has-children"><a href="">Student Login</a>
+          <ul>
+            <li><a href="#">Student Name 1</a></li>
+            <li><a href="#">Student Name 2</a></li>
+            <li><a href="#">Student Name 3</a></li>
+            <li><a href="#">Student Name 4</a></li>
+            <li><a href="#">Student Name 5</a></li>
+            <!-- <li class="menu-has-children"><a href="#">Drop Down 2</a> -->
+              <!-- <ul>
+                <li><a href="#">Deep Drop Down 1</a></li>
+                <li><a href="#">Deep Drop Down 2</a></li>
+                <li><a href="#">Deep Drop Down 3</a></li>
+                <li><a href="#">Deep Drop Down 4</a></li>
+                <li><a href="#">Deep Drop Down 5</a></li>
+              </ul> -->
+            <!-- </li> -->
+            <!-- <li><a href="#">Drop Down 3</a></li>
+            <li><a href="#">Drop Down 4</a></li>
+            <li><a href="#">Drop Down 5</a></li> -->
+          </ul>
+        </li>
+        <!-- <li><a href="#contact">Contact Us</a></li> -->
+      </ul>
+    </nav><!-- #nav-menu-container -->
+  </div>
+</header><!-- End Header -->
+<div class="page">
+  <h1></h1>
+  <div class="archive">
+    <article class="article">
+      <div id="fig12" ondrop="dropThis(event)" ondragover="allowDropThis(event)"></div>
+    </article>
+    <article class="article">
+      <div id="fig12" ondrop="dropThis(event)" ondragover="allowDropThis(event)"></div>
+    </article>
+    <article class="article">
+      <div id="fig12" ondrop="dropThis(event)" ondragover="allowDropThis(event)"></div>
+    </article>
+    <article class="article">
+      <div id="fig12" ondrop="dropThis(event)" ondragover="allowDropThis(event)"></div>
+    </article>
+    <article class="article">
+      <div id="fig12" ondrop="dropThis(event)" ondragover="allowDropThis(event)"></div>
+    </article>
+    <article class="article">
+      <div class="drag">
+        <div id="fig1" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+            <img id="ladybug1" src="./assets/img/cake_c_pic.png" draggable="true" ondragstart="dragThis(event)" id="drag1" width="90" height="90">
+        </div>
+      <div class="drag">
+        <div id="fig1" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+            <img id="ladybug3" src="./assets/img/egg_e_pic.png" draggable="true" ondragstart="dragThis(event)" id="drag1" width="90" height="90">
+        </div>
+      <div class="drag">
+        <div id="fig1" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+          <img id="ladybug4" src="./assets/img/moon.png" draggable="true" ondragstart="dragThis(event)" id="drag1" width="90" height="90">
+        </div>
+      </div> 
+    </article>
+    <article class="article">
+      <div class="drag">
+        <div id="fig1" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+          <img id="ladybug5" src="./assets/img/crab.png" draggable="true" ondragstart="dragThis(event)" id="drag1" width="90" height="90">
+        </div> 
+        <div id="fig1" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+            <img id="ladybug6" src="./assets/img/hat_h_pic.png" draggable="true" ondragstart="dragThis(event)" id="drag1" width="90" height="90">
+        </div>  
+        <div id="fig1" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+            <img id="ladybug7" src="./assets/img/octopus_o_pic.png" draggable="true" ondragstart="dragThis(event)" id="drag1" width="90" height="90">
+        </div> 
+      </div>
+    </article>
+    <article class="article">
+      <div class="drag">
+        <div id="fig1" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+          <img id="ladybug8" src="./assets/img/igloo_i_pic.png" draggable="true" ondragstart="dragThis(event)" id="drag1" width="90" height="90">
+        </div> 
+        <div id="fig1" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+            <img id="ladybug9" src="./assets/img/tiger_t _pic.png" draggable="true" ondragstart="dragThis(event)" id="drag1" width="90" height="90">
+        </div> 
+        <div id="fig1" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+            <img id="ladybug10" src="./assets/img/umbrella_u_pic.png" draggable="true" ondragstart="dragThis(event)" id="drag1" width="90" height="90">
+        </div> 
+      </div>
+    </article>
+    <article class="article">
+      <div class="drag">
+        <div id="fig1" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+          <img id="ladybug11" src="./assets/img/sea-turtle.png" draggable="true" ondragstart="dragThis(event)" id="drag1" width="90" height="90">
+        </div> 
+        <div id="fig1" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+          <img id="ladybug12" src="./assets/img/movie-frog.png" draggable="true" ondragstart="dragThis(event)" id="drag1" width="90" height="90">
+        </div> 
+        <div id="fig1" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+          <img id="ladybug13" src="./assets/img/rat_r_pic.png" draggable="true" ondragstart="dragThis(event)" id="drag1" width="90" height="90">
+        </div> 
+      </div>
+    </article>
+    <article class="article">
+      <div class="drag">
+        <div id="fig1" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+          <img id="ladybug14" src="./assets/img/bee copy.png" draggable="true" ondragstart="dragThis(event)" id="drag1" width="90" height="90">
+        </div> 
+        <div id="fig1" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+          <img id="ladybug15" src="./assets/img/spider copy.png" draggable="true" ondragstart="dragThis(event)" id="drag1" width="90" height="90">
+        </div> 
+        <div id="fig1" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+          <img id="ladybug16" src="./assets/img/10 copy.png" draggable="true" ondragstart="dragThis(event)" id="drag1" width="90" height="90">
+        </div> 
+      </div>
+      </article>
+    </div>
+  </div>
+</div>
+<div class="go">
+  <a id="classpage" href="index.html"><img id="page" src="./assets/img/go.png"></a>
+</div>
+</div>
+</html>
+    <!-- <article class="article">6
+      <hr>
+      <hr>
+      <hr>
+    </article> -->
+    <!-- <article class="article">7
+      <hr>
+      <hr>
+      <hr>
+    </article>
+    <article class="article">8
+      <hr>
+      <hr>
+    </article>
+    <article class="article">9
+      <hr>
+      <hr>
+      <hr>
+    </article>
+    <article class="article">10
+      <hr>
+      <hr>
+    </article>
+    <article class="article">11
+      <hr>
+      <hr>
+      <hr>
+    </article> -->
+    <!-- <article class="article">12
+      <hr class="image"><hr>
+      <hr>
+      <hr>
+    </article>
+    <article class="article">13
+      <hr class="image"><hr>
+      <hr>
+    </article>
+    <article class="article">14
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+    </article>
+    <article class="article">15
+      <hr class="image">
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+    </article>
+    <article class="article">16
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+    </article>
+    <article class="article">17<hr>
+      <hr>
+      <hr></article> -->
+
+<!-- <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
     <div class="title">
         <h1 class="logo mr-auto"><a href="index.html"><span>Student</span> Login Page</a></h1>
         <span id="explain">A number of classroom interfaces have a common design flaw: the student login is not user-friendly for young students.  For young children, logging in includes too many steps and too many pieces of information to remember, and involves too many typing/navigation skills.  In my design, students find their name in the dropdown and instead of having to enter a letter/numerical password, the user's password is made up of a number of pictures that they have to put in order.  Supportive features could be added to assist users with remembering the pictures and the order of the pictures if they enter their password incorrectly.</span>
-    </div>
+    </div> -->
 
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
+      <!-- <nav class="nav-menu d-none d-lg-block">
+        <ul> -->
             <!-- <h1 class="logo mr-auto"><a href="index.html"><span>Login</span> Page</a></h1> -->
 
-            <li class="drop-down"><a href="">Student</a>
-            <ul>
+            <!-- <li class="drop-down"><a href="">Student</a>
+            <ul> -->
               <!-- <li><a href="about.html">New Concept</a></li> -->
+              <!-- <li><a href="">Student Name</a></li>
               <li><a href="">Student Name</a></li>
-              <li><a href="">Student Name</a></li>
-              <li><a href="">Student Name</a></li>
+              <li><a href="">Student Name</a></li> -->
               <!-- <li class="drop-down"><a href="#">Deep Drop Down</a> -->
                 <!-- <ul> -->
                   <!-- <li><a href="#">Deep Drop Down 1</a></li>
@@ -37,9 +240,9 @@
                   <li><a href="#">Deep Drop Down 4</a></li>
                   <li><a href="#">Deep Drop Down 5</a></li> -->
                 <!-- </ul> -->
-              </li>
+              <!-- </li>
             </ul>
-          </li>
+          </li> -->
 
           <!-- <li><a href="services.html">Portfolio</a></li> -->
           <!-- <li><a href="portfolio.html">Components</a></li> -->
@@ -47,10 +250,10 @@
           <li><a href="blog.html">Blog</a></li> -->
           <!-- <li><a href="contact.html">Contact</a></li> -->
 
-        </ul>
+        <!-- </ul>
       </nav>
     </div>
-</header>
+</header> -->
 <!-- <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
@@ -66,12 +269,13 @@
                 <!-- </ul>
               </li>
 </header> -->
-<section class="container">
+<!-- <section class="container">
     <div id="drops">
         <div id="numbers">
             <div class="drop">
                 <div id="fig12" ondrop="dropThis(event)" ondragover="allowDropThis(event)"></div>
             </div>
+          
             <div class="drop">
                 <div id="fig13" ondrop="dropThis(event)" ondragover="allowDropThis(event)"></div>
             </div>
@@ -87,7 +291,7 @@
 <div class="drag">
     <div id="fig1" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
         <img id="ladybug1" src="./assets/img/cake_c_pic.png" draggable="true" ondragstart="dragThis(event)" id="drag1" width="90" height="90">
-    </div>  
+    </div>
     <div id="fig1" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
         <img id="ladybug3" src="./assets/img/egg_e_pic.png" draggable="true" ondragstart="dragThis(event)" id="drag1" width="90" height="90">
     </div> 
@@ -116,7 +320,5 @@
         <img id="ladybug11" src="./assets/img/sea-turtle.png" draggable="true" ondragstart="dragThis(event)" id="drag1" width="90" height="90">
     </div> 
 </div>
-<div class="go">
-    <a id="classpage" href="index.html"><img id="page" src="./assets/img/go.png"></a>
-</div>
-    
+
+
