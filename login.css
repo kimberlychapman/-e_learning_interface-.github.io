@@ -136,15 +136,6 @@ transform:scale(1.3);
   margin: 0;
 }
 
-@media (max-width: 768px) {
-  #header #logo h1 {
-    font-size: 26px;
-  }
-  #header #logo img {
-    max-height: 40px;
-  }
-}
-
 #header.header-transparent {
   background: transparent;
 }
@@ -219,11 +210,7 @@ transform:scale(1.3);
   margin-right:50px;
 }
 
-@media (max-width: 768px) {
-  #nav-menu-container {
-    display: flex;
-  }
-}
+
 
 /* Nav Meu Styling */
 .nav-menu a {
@@ -311,11 +298,7 @@ transform:scale(1.3);
   color: #fff;
 }
 
-@media (max-width: 768px) {
-  #mobile-nav-toggle {
-    display: inline;
-  }
-}
+
 
 /* Mobile Nav Styling */
 #mobile-nav {
@@ -410,11 +393,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
 }
 
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
 
 #hero:before {
   content: "";
@@ -448,12 +426,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-}
 
 #hero h2 {
   color: #eee;
@@ -461,13 +433,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 24px;
 }
 
-@media (max-width: 768px) {
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
 
 #hero .btn-get-started {
   font-family: "Poppins", sans-serif;
@@ -487,4 +452,66 @@ body.mobile-nav-active #mobile-nav-toggle {
 #hero .btn-get-started:hover {
   background: #2dc997;
   border: 2px solid #2dc997;
+}
+
+#help{
+  display:flex;
+  justify-content: left;
+  margin-top:290px;
+}
+#description{
+  display: none;
+}
+.help:hover #description{
+  display: block;
+  font-size: 80%;
+  font-family: "Poppins", sans-serif;
+}
+#help:hover #description{
+  display: block;
+  font-size: 100%;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  #header #logo h1 {
+    font-size: 26px;
+  }
+  #header #logo img {
+    max-height: 40px;
+  }
+}
+.helper{
+  display:flex;
+  flex-direction: column;
+  width:70px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color:white;
+  font-size:12pt;
+}
+@media (max-width: 768px) {
+  #nav-menu-container {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  #mobile-nav-toggle {
+    display: inline;
+  }
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
 }
